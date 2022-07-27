@@ -259,57 +259,90 @@ h1 {
     }
 } 
 
-/* 600px 
 
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:400px) {
+    * {
+        padding: 0px;
+
+        margin: 0px;
+    }
+
+
     .img1 {
         width: 150px;
-        top: -80px;
-        left: 225px;
+        top: 10px;
+        left: 80px;
     }
 
     h1 {
         font-family: 'Poppins';
+        font-size: 1.2em;
         position: absolute;
-        top: 45vh;
-        left: 85px;
-        width: 430px;
+        top: 50vh;
+        left: 20px;
+        width: 260px;
     }
 
     .info {
         text-align: center;
         top: 55vh;
-        width: 470px;
-        left: 165;
+        width: 280px;
+        left: 10px;
         position: absolute;
     }
 
     .descarga {
         position: absolute;
-        top: 70vh;
+        top: 75vh;
         width: 130px;
-        left: 300px;
+        left: 80px;
+    }
+
+    .titulo2 {
+        width: 120px;
+        text-align: center;
+        top: 100vh;
+        left: 140px;
     }
 
     .l2 {
-        left: -120px;
+        left: 5px;
+        font-family: 'Poppins light';
+        top: 110vh;
+        font-size: 0.7em;
+        height: auto;
+        width: 160px;
     }
 
+
     .r {
-        left: 420px;
+        left: 230px;
+        top: 110vh;
+        font-size: 0.7em;
+        font-family: 'Poppins light';
+        width: 140px;
+        height: auto;
+    }
+    
+
+    .line2 {
+        height: 200px;
+        left: 50%;
     }
 
     .line3 {
-        top: 180vh;
+        left: 8%;
+        top: 145vh;
     }
 
     .smaall {
-        top: 180vh;
-        padding: 30px;
+        top: 145vh;
+        width: 380px;
+        font-size: 0.8em;
+        text-align: center;
+        padding: 10px;
     }
 } 
 
-
-
-*/
 
